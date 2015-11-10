@@ -278,7 +278,7 @@ PRODUCT_COPY_FILES += \
 
 # version
 RELEASE = false
-CARBON_VERSION_MAJOR = 5.1.1
+CARBON_VERSION_MAJOR = 6.0.0
 CARBON_VERSION_MINOR = 0
 
 # Set CARBON_BUILDTYPE
@@ -295,7 +295,7 @@ endif
 ifdef CARBON_BUILDTYPE
 else
     CARBON_BUILDTYPE := UNOFFICIAL
-		CARBON_VERSION_MAJOR = 5.1.1
+		CARBON_VERSION_MAJOR = 6.0.0
 		CARBON_VERSION_MINOR = 0
 endif
 
@@ -313,7 +313,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.romstats.askfirst=1 \
 ro.romstats.ga=UA-43747246-1 \
-ro.romstats.name=CarbonRom- \
+ro.romstats.name=CarbonROM- \
 ro.romstats.url=http://stats.carbonrom.org \
 ro.romstats.version=$(CARBON_VERSION)
 
