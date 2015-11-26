@@ -4,6 +4,7 @@ add_lunch_combo carbon_e975-userdebug
 add_lunch_combo carbon_flo-userdebug
 add_lunch_combo carbon_hammerhead-userdebug
 add_lunch_combo carbon_hltetmo-userdebug
+add_lunch_combo carbon_huashan-userdebug
 add_lunch_combo carbon_i9100-userdebug
 add_lunch_combo carbon_leo_aosp-userdebug
 add_lunch_combo carbon_m7-userdebug
